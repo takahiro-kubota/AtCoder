@@ -4,6 +4,10 @@
 $debugFlag = ( ARGV[0] != nil )
 p "==== DEBUG MODE ====" if $debugFlag
 
+def pd(str)
+  p str if $debugFlag
+end
+
 # input
 inputs = []
 lc = 0
