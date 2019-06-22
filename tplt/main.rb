@@ -8,8 +8,8 @@ def pd(str)
   p str if $debugFlag
 end
 
-def putsd(str)
-  puts str if $debugFlag
+def printd(str)
+  print str if $debugFlag
 end
 
 # input
